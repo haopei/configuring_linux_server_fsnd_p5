@@ -1,7 +1,32 @@
 # Configuring a Linux Server
 This project configures a new linux server to host a catalog application which was created in Project #3 on Udacity's FSND.
 
+##### Project Links
+ * Amazon EC2 Link: ec2-52-33-152-154.us-west-2.compute.amazonaws.com
+ * IP Address: http://52.33.152.154
+
+##### Summary of Installed Packages
+ * finger
+ * apache2
+ * libapache2-mod-wsgi
+ * git
+ * python-dev
+ * python-pip
+ * virtualenv
+ * Flask
+ * sqlalchemy
+ * requests
+ * httplib2
+ * python-psycopy2
+ * postgresql
+ * postgresql-contrib
+ * fail2ban
+   * sendmail
+   * iptables-persistent
+ * cron
+
 ### Student Configuration Activity Log
+These are the steps taken by the student to complete the project.
 
 ##### Setting Up
  * Download `udacity_key.rsa` into local machine's `~/.ssh/`. Run `$ chmod 600 ~/.ssh/udacity_key.rsa` to configure its file permission.
